@@ -1,0 +1,24 @@
+.mytable{
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.mytable thead tr{
+    background-color: blue;
+    text-align: left;
+}
+.mytable tbody tr{
+    border-bottom:2px solid pink; 
+}
+.mytable tbody tr{
+    border-bottom: 2px solid red;
+}
+.mytable tbody tr:nth-child(2n){
+    background-color: aqua;
+    color:red;
+}
+.mytable tbody tr:nth-child(2n+1){
+    background-color: rgb(238, 227, 227);
+    color: teal;
+}
+
